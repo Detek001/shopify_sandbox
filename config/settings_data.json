@@ -125,10 +125,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Herzlich Willkommen bei TEEkne",
               "text_alignment": "center",
-              "color_scheme": "background-1",
-              "link": ""
+              "color_scheme": "background-2",
+              "link": "shopify:\/\/collections\/all"
             }
           }
         },
