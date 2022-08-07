@@ -56,7 +56,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/column_img_1.png",
             "title": "Entdecken Sie eine andere Welt",
-            "text": "<p>Bleiben Sie auf dem Laufenden, was die neuesten Geschmacksrichtungen angeht, und finden Sie das perfekte Gebräu für jede Stimmung!<\/p>",
+            "text": "<p>Bleiben Sie auf dem Laufenden, was die <strong>neuesten Geschmacksrichtungen<\/strong> angeht, und finden Sie das perfekte Gebräu für jede Stimmung!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/column_img_2.png",
             "title": "Riesige Auswahl",
-            "text": "<p>Genießen Sie es jetzt, bei TEEKne aus einem umfangreichen Teesortiment einzukaufen - egal zu welcher Tageszeit.<\/p>",
+            "text": "<p>Genießen Sie es jetzt, bei <strong>TEEKne<\/strong> aus einem umfangreichen Teesortiment einzukaufen - egal zu welcher Tageszeit.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/column_img_3_fabaa60a-5be0-4865-b990-203d10eeef50.png",
             "title": "Beste Qualität",
-            "text": "<p>Bei TEEkne finden Sie hochwertige Sorten, die aus traditionellen Teesorten wie Weißer Pfingstrose oder Genmaicha hergestellt werden.<\/p>",
+            "text": "<p>Bei <strong>TEEkne <\/strong>finden Sie hochwertige Sorten, die aus traditionellen Teesorten wie Weißer Pfingstrose oder Genmaicha hergestellt werden.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -107,18 +107,18 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Angebote der Woche",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
