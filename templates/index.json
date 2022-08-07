@@ -54,6 +54,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/column_img_1.png",
             "title": "Entdecken Sie eine andere Welt",
             "text": "<p>Bleiben Sie auf dem Laufenden, was die neuesten Geschmacksrichtungen angeht, und finden Sie das perfekte Gebräu für jede Stimmung!<\/p>",
             "link_label": "",
@@ -63,6 +64,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/column_img_2.png",
             "title": "Riesige Auswahl",
             "text": "<p>Genießen Sie es jetzt, bei TEEKNE aus einem umfangreichen Teesortiment einzukaufen - egal zu welcher Tageszeit.<\/p>",
             "link_label": "",
@@ -72,6 +74,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/column_img_3.png",
             "title": "Echter Tee",
             "text": "<p>Bei TEEkne finden Sie hochwertige Sorten, die aus traditionellen Teesorten wie Weißer Pfingstrose oder Genmaicha hergestellt werden.<\/p>",
             "link_label": "",
