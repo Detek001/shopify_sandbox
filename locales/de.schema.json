@@ -2605,6 +2605,17 @@
               "label": "Box Farbe"
             }
           }
+        },
+        "text_block": {
+          "name": "Textblock",
+          "settings": {
+            "block_text": {
+              "label": "Box Text"
+            },
+            "color": {
+              "label": "Box Farbe"
+            }
+          }
         }
       }
     },
