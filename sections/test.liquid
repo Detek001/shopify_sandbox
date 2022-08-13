@@ -17,7 +17,6 @@
   }
 
   .test .flex-item {
-    background-color: {{ box_color }};
     width: 200px;
     height: 200px;
     display: flex;
@@ -28,24 +27,21 @@
 
 {%- endstyle -%}
 
-{%- assign box  = section.blocks.type.box -%}
-
 
 <div class="test page-width isolate">
   <div class="flex-container">
-
-
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when "box" -%}
           {%- assign box_text = block.settings.box_text -%}
           {%- assign box_color = block.settings.box_color -%}
-          <div class="flex-item">
+          {%- capture box_color_style -%}
+            background-color: {{box_color}};
+          {%- endcapture -%}
+          <div class="flex-item" style="{{box_color_style}}">
             <h1>{{box_text}}</h1>
           </div>
-
         {%- else -%}
-          
       {%- endcase -%}
     {%- endfor -%}
   </div>
