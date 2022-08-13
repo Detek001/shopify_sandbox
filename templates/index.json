@@ -166,12 +166,33 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16603980245aa786a4": {
+      "type": "test",
+      "blocks": {
+        "f325f723-12d6-4f5f-93a3-aa484eaddadb": {
+          "type": "box",
+          "settings": {
+            "box_text": "Box Text",
+            "box_color": "#ffff00"
+          }
+        }
+      },
+      "block_order": [
+        "f325f723-12d6-4f5f-93a3-aa484eaddadb"
+      ],
+      "settings": {
+        "select_test": "Zwei",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
     "featured_collection",
-    "1660328451cfbb4392"
+    "1660328451cfbb4392",
+    "16603980245aa786a4"
   ]
 }
