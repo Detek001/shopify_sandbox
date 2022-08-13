@@ -170,16 +170,16 @@
     "16603980245aa786a4": {
       "type": "test",
       "blocks": {
-        "f325f723-12d6-4f5f-93a3-aa484eaddadb": {
-          "type": "box",
+        "6455db60-5c0c-4df7-b614-ff6624b8ab4c": {
+          "type": "text_block",
           "settings": {
-            "box_text": "Box Text",
-            "box_color": "#ffff00"
+            "block_heading": "Dies ist eine Überschrift",
+            "block_text": "Dies ist ein Text"
           }
         }
       },
       "block_order": [
-        "f325f723-12d6-4f5f-93a3-aa484eaddadb"
+        "6455db60-5c0c-4df7-b614-ff6624b8ab4c"
       ],
       "settings": {
         "select_test": "Zwei",
