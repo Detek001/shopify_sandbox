@@ -166,49 +166,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1660396208610f3d20": {
-      "type": "test",
-      "blocks": {
-        "8d4b34c3-0c7f-4c44-b406-9e523747251b": {
-          "type": "box",
-          "settings": {
-            "box_text": "Box Text",
-            "box_color": "#ffff00"
-          }
-        },
-        "d75451fb-b0e6-4f51-96cb-affa2db1661d": {
-          "type": "box",
-          "settings": {
-            "box_text": "Box Text",
-            "box_color": "#ffff00"
-          }
-        },
-        "dd1298a3-42e8-4291-8d63-75c6ff70bb26": {
-          "type": "box",
-          "settings": {
-            "box_text": "Box Text",
-            "box_color": "#ffff00"
-          }
-        }
-      },
-      "block_order": [
-        "8d4b34c3-0c7f-4c44-b406-9e523747251b",
-        "d75451fb-b0e6-4f51-96cb-affa2db1661d",
-        "dd1298a3-42e8-4291-8d63-75c6ff70bb26"
-      ],
-      "settings": {
-        "select_test": "Zwei",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
     "featured_collection",
-    "1660328451cfbb4392",
-    "1660396208610f3d20"
+    "1660328451cfbb4392"
   ]
 }
