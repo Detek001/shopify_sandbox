@@ -129,8 +129,8 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Gratisversand ab 40 €",
+            "text": "<p>Ab einem Mindestbestellwert von 40 € werden Ihre bestellten Waren gratis nachhause geliefert. <\/p>",
             "link_label": "",
             "link": ""
           }
