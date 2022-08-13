@@ -28,7 +28,7 @@
 {%- endstyle -%}
 
 
-<div class="test page-width isolate">
+<div class="test page-width isolate section-{{ section.id }}-padding">
   <div class="flex-container">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -38,7 +38,7 @@
           {%- capture box_color_style -%}
             background-color: {{box_color}};
           {%- endcapture -%}
-          <div class="flex-item" style="{{box_color_style}}">
+          <div class="flex-item">
             <h1>{{box_text}}</h1>
           </div>
         {%- else -%}
@@ -130,19 +130,19 @@
   "blocks": [
     {
       "type": "box",
-      "name": "t:sections.image-with-text.blocks.box.name",
+      "name": "t:sections.test.blocks.box.name",
       "settings": [
         {
           "type": "text",
           "id": "box_text",
           "default": "Box Text",
-          "label": "t:sections.image-with-text.blocks.heading.settings.text.label"
+          "label": "t:sections.test.blocks.box.settings.box_text.label"
         },
         {
           "type": "color",
           "id": "box_color",
           "default": "#ffff00",
-          "label": "t:sections.all.box_color.label"
+          "label": "t:sections.test.blocks.box.box_color.label"
         }
       ]
     }
