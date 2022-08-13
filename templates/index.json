@@ -179,8 +179,8 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "weisse-pfingstrose",
+            "second_image": true
           }
         },
         "collection-1": {
