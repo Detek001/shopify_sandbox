@@ -33,14 +33,20 @@
 
 <div class="test page-width isolate">
   <div class="flex-container">
-    {%- for item in box -%}
-      {%- assign box_text = box.settings.box_text -%}
-      {%- assign box_color = box.settings.box_color -%}
 
-      <div class="flex-item">
-        <h1>{{box_text}}</h1>
-      </div>
-      
+
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when "box" -%}
+          {%- assign box_text = block.settings.box_text -%}
+          {%- assign box_color = block.settings.box_color -%}
+          <div class="flex-item">
+            <h1>{{box_text}}</h1>
+          </div>
+
+        {%- else -%}
+          
+      {%- endcase -%}
     {%- endfor -%}
   </div>
 
