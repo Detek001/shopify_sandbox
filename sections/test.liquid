@@ -1,3 +1,5 @@
+
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -23,6 +25,11 @@
     align-items: center;
     justify-content: center;
     color: #ffff;
+  }
+
+  .test-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
 {%- endstyle -%}
