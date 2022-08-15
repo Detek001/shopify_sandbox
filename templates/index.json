@@ -167,33 +167,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16603980245aa786a4": {
-      "type": "test",
-      "blocks": {
-        "6455db60-5c0c-4df7-b614-ff6624b8ab4c": {
-          "type": "text_block",
-          "settings": {
-            "block_heading": "Dies ist eine Überschrift",
-            "block_text": "Dies ist ein Text"
-          }
-        }
-      },
-      "block_order": [
-        "6455db60-5c0c-4df7-b614-ff6624b8ab4c"
-      ],
-      "settings": {
-        "select_test": "Zwei",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
     "featured_collection",
-    "1660328451cfbb4392",
-    "16603980245aa786a4"
+    "1660328451cfbb4392"
   ]
 }
